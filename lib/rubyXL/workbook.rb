@@ -248,7 +248,7 @@ module RubyXL
       skip_chars = ['$', '-', '+', '/', '(', ')', ':', ' ']
       num_chars = ['0', '#', '?']
       non_date_formats = ['0.00E+00', '##0.0E+0', 'General', 'GENERAL', 'general', '@']
-      date_chars = ['y','m','d','h','s']
+      date_chars = ['y','m','d','h','s','Y','M','D','H','S']
 
       state = 0
       s = ''
